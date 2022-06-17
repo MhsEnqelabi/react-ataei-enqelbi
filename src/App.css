@@ -39,6 +39,7 @@ flex-direction: row-reverse;
   display:flex;
   flex-direction: column;
   gap:24px;
+  padding:24px
 }
 
 .user{
@@ -52,7 +53,9 @@ flex-direction: row-reverse;
 .userTextClass{
 display: flex;
 flex-direction: column;
-align-items: flex-end;}
+align-items: flex-end;
+padding:10px
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
