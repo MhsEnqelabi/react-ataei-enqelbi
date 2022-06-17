@@ -6,6 +6,9 @@ import listImage from "./Components/Group 19.png"
 import leftSide from "./Components/Rectangle 2.png"
 import irancellImage from './Components/irancell.png'
 import "./App.css"
+import User from './Components/User'
+import firstIcon from "./Components/extra-piggie-04.png"
+import secondIcon from "./Components/extra-piggie-05.png"
 
 function App() {
   return (
@@ -28,6 +31,10 @@ function App() {
 
 
 <div className='left'>
+<User user={"سلام، مهسا انقلابی"} email={"mhs642@gmail.com"} img={firstIcon}/>
+
+  <User user={"سلام ساحل عطایی"} email={"sahelataei12345@gmail.com"} img={secondIcon}/>
+
 <img src={leftSide}/>
 </div>
   
